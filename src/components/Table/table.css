@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.page-body {
+    background: #E4FBFB;
+}
+
+.head-container {
+    height: 59px;
+    width: 100%;
+    align-items: center;
+    background: #E4FBFB;
+}
+
+.patient_report_title {
+    width: 173px;
+    height: 32px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #1F6CAB;
+}
+
+.search-filter-container {
+    gap: 16px;
+}
+
+.applyfilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 30px;
+    background: #1F6CAB;
+    border: 1px solid #1F6CAB;
+    border-radius: 5px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.searchbox {
+    position: relative;
+    margin-right: 43px;
+}
+
+.searchbox>input {
+    box-sizing: border-box;
+    width: 450px;
+    height: 30px;
+    line-height: 1.5;
+    background: #F4F4F4;
+    border: 1px solid #1F6CAB;
+    border-radius: 5px;
+}
+
+.searchbox>i {
+    position: absolute;
+    font-size: 18px;
+    right: 20px;
+    top: 6px;
+}
+
+.table-container {
+    width: 98vw;
+    height: 76.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.table-head {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #505050;
+}
+
+.table-content {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #505050;
+}
+
+.tg {
+    border-spacing: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.tg td {
+    border-bottom: solid rgb(94, 92, 92) 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+
+}
+
+.tg-content {
+    max-width: 100px;
+}
+
+.tg th {
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-head {
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+.report-status .ready-box {
+    width: 122px;
+    height: 23px;
+    padding: 2px;
+    text-align: center;
+    background: #89FFAA;
+    border-radius: 12px;
+}
+
+.report-status .partial-box {
+    width: 122px;
+    height: 23px;
+    padding: 2px;
+    text-align: center;
+
+    background: #E7F880;
+    border-radius: 12px;
+}
+
+.report-status .dropped-box {
+    width: 122px;
+    height: 23px;
+    padding: 2px;
+    text-align: center;
+    background: #F2A38A;
+    border-radius: 12px;
+}
+
+.report-icons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    color: #1F6CAB;
+    font-size: 20px;
+}
+
+.report-icons i {
+    cursor: pointer;
+    margin-left: -25px;
+}

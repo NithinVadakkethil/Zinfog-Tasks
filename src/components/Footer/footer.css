@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #E4FBFB;
+}
+
+.footer-copyright {
+    width: 322px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6C6C;
+}
+
+.footer-phoneNumberContainer {
+    width: 225.04px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone-logo {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.footer__phone-number {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1F6CAB;
+}
+
+.footer-tc {
+    width: 408px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #00D3EB;
+
+}
